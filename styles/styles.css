@@ -1,0 +1,299 @@
+
+body{
+    font-family: 'Gentium Basic', serif;
+}
+
+.cover{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 800px;
+}
+
+.flex{
+    display: flex;
+}
+
+.tac{
+    text-align: center;
+}
+
+/* Header */
+.header{
+    background-image: url(/images/promo-background.jpeg);
+    color: white;
+}
+
+.main-nav, .sub-nav{
+    display: flex;
+    margin: 0 10%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+}
+
+.main-nav .nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.main-nav .nav ul li{
+    margin: 0 10px;
+}
+.main-nav .social-media{
+
+    color: orange;
+    font-size: 25px;
+    margin: 0 10px;
+
+}
+
+.header .hero-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.hero-main h1{
+    text-align: center;
+    font-size: 80px;
+}
+
+.divider-white{
+    margin: -30px 0 20px 0;
+}
+
+.header .botton{
+    display: flex;
+    list-style-type: none;
+}
+
+.header .botton 
+p:first-child{
+    margin: 0 15px;
+    background-color: rgba(0, 0, 0, 0.329);
+    padding: 10px 20px;
+    outline: 1px solid black;
+}
+
+.header .botton 
+p:last-child{
+    text-align: center;
+    margin: 0 15px;
+    background-color: rgba(255, 255, 255, 0.103);
+    padding: 10px 20px;
+    outline: 1px solid white;
+}
+/* END Header */
+
+
+
+/*section 1 */
+.main-section1{
+    background-image: url(/images/reservations-background.png);
+}
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    margin: 0 10%;
+}
+
+.section1 .colomn1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: culc(100% / 2);
+    text-align: center;
+}
+
+h2{
+    color: orange;
+    font-size: 40px;
+}
+
+
+.section1 .colomn1 p{
+    color: rgba(0, 0, 0, 0.589);
+    font-size: 18px;
+}
+
+.section1 .colomn2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: culc(100% / 2);
+}
+/*END Section 1 */
+
+
+
+/* Section 2 */
+.main-section2{
+    background-image: url(/images/ingredients-background.jpeg);
+}
+
+.main-section2 .section2{
+    background-color: rgba(0, 0, 0, 0.52);
+    height: 600px;
+    width: 600px;
+    float: right;
+    margin:7% 15%;
+}
+
+.main-section2 .section2 div{
+    color: white;
+    text-align: center;
+    margin: 60px;
+    font-size: 18px;
+
+}
+.section2-img{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+/*END Section 2 */
+
+
+
+/* Section 3 */
+.main-section3{
+    background-image: url(/images/reservations-background.png);
+    height: 1000px;
+    justify-content: space-between;
+}
+
+.col1, .col2{
+    width: 50%;
+    margin: 50px 80px;
+}
+.appetisers div div,
+.salads div div,
+.starters div div,
+.main-dishes div div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.appetisers div div p,
+.salads div div p,
+.starters div div p,
+.main-dishes div div p{
+    color: orange;
+    font-size: 18px;
+}
+
+.appetisers div div,
+.salads div div,
+.starters div div,
+.main-dishes div div{
+    background-color: rgba(255, 166, 0, 0.082);
+    outline:1px solid rgba(255, 166, 0, 0.767);
+}
+
+/*END Section 3 */
+
+
+
+/* Section 4 */
+.main-section4{
+    background-image: url(/images/reviews-background.png);
+    position: relative;
+}
+
+.main-section4 .section4{
+    background-color: rgba(0, 0, 0, 0.52);
+    height: 500px;
+    width: 600px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+.section4 h2{
+    color: white;
+}
+/*END Section 4 */
+
+
+/* Section 5 */
+.main-section5{
+    background-image: url(/images/reservations-background.png);
+}
+
+.main-section5 .col1 img{
+    width: 49%;
+}
+
+.main-section5 .col1{
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.main-section5 .col1,
+.main-section5 .col2{
+    width: 50%;
+    height: 70vh;
+}
+
+.main-section5 .col2 p{
+    color: rgba(0, 0, 0, 0.637);
+}
+
+.main-section5 .col2{
+    padding: 0 150px;
+    text-align: center;
+}
+.form{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+}
+
+label, input{
+    color: orange;
+    float: left;
+    margin: 10px;
+}
+
+input{
+    margin: 0 0 10px 0;
+}
+
+button{
+    color: white;
+    background-color: orange;
+    width: 170px;
+    height: 40px;
+    margin-top: 30px;
+}
+/*END Section 5 */
+
+
+/* Footer */
+.footer{
+background-color: black;
+height: 400px;
+width: 100%;
+}
+
+.footer h2, p{
+    color: white;
+}
+.footer div{
+    width: 33.33%;
+    text-align: center;
+    padding: 20px 100px;
+}
+/* End Footer */
